@@ -1,0 +1,99 @@
+body{
+    background-color: red;
+}
+
+.login-container{
+    font-family: 'Poppins', sans-serif;
+    width: 400px;
+    height: 350px;
+    margin-top: 80px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
+    margin-left: auto;
+    margin-right: auto;
+    padding:1.2em;
+}
+.btn-login{
+    background-color: brown;
+   
+    height: 3.5rem;
+}
+.login-input{
+    background-color: transparent;
+    color: #111010;
+    margin: 10px 0px;
+    height: 3.5rem;
+    padding-left: 50px;
+    width: 100%;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #686060 1px;
+    transition: 0.3s;
+   
+    
+}
+.login-input:focus{
+    border-bottom: solid #3b3939 2px;
+}
+.inside-icon{
+    position:relative;
+}
+.inside-icon i{
+    position:absolute;
+    left:5px;
+    top:16px;
+    padding:10px 10px;
+    color: green;
+    font-size: 20px;
+}
+.new-acct-header{
+    font-size : .8rem;
+}
+
+
+/* Registration Form */
+.item-field{
+    padding:10px;
+}
+.register-container{
+    width: 80vw;
+}
+
+/* Update Container */
+
+
+
+/* List view */
+.table th{
+    text-align: center;
+
+}
+
+/* Registration Section */
+#reg-form{
+    background-color: #686060;
+  
+}
+
+.btnAdd_customer{
+    
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #6C63FF;
+    color: #6C63FF;
+    margin-top: 10px;
+    font-size: large;
+    font-weight: 500;
+}
+.btnAdd_customer:hover{
+    background-color: #6C63FF;
+    color: #fff;
+}
+.notice__message{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
